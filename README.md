@@ -14,9 +14,9 @@ The Data Engineer helped extract the billing and potential data potential of the
 The attached CSV has this data for you to perform your your analysis.
 
 Now, put together an analysis of the São Paulo neighborhoods to:
-1 - Estimate the revenue that a store would have in each of the neighborhoods
-2 - Classify the potential of each neighborhood as High, Medium or Low
-3 - Segment the neighborhoods of São Paulo according to income and age, and
+- Estimate the revenue that a store would have in each of the neighborhoods
+- Classify the potential of each neighborhood as High, Medium or Low
+- Segment the neighborhoods of São Paulo according to income and age, and
 age, and indicate those with greater adherence to the target public.
 
 ### Install
@@ -36,9 +36,13 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 In the 'src' folder, we have the following routines:
 
-- analysis.py
+- regression_classification.py
 
-Read the data, preprocesses the dataset, and creates a new dataset with the expected results for the São Paulo neighborhoods.
+It runs the regression and classification algorithms for the neighborhoods of São Paulo. Read the data, preprocesses the dataset, and creates a new dataset with the expected results for the São Paulo neighborhoods.
+
+- clustering.py
+
+Segments the neighborhoods of São Paulo using Agglomerative Clustering.
 
 - plots.py
 
@@ -83,3 +87,7 @@ python src/plots.py
 The output .csv file with the regression will be saved in the "data" folder
 
 The .png plots will be saved in the "figures" folder
+
+## Dashboard
+
+O dashboard para a visualização dos resultados está no projeto [dash_ML_case1](https://github.com/calixtops/dash_ML_case1)
