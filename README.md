@@ -74,7 +74,7 @@ In the root folder of the project, run:
 
 #### To run the analysis:
 ```sh
-python src/analysis.py
+python src/regression_classification.py
 ```
 
 #### To run the plots:
