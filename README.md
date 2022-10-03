@@ -90,4 +90,4 @@ The .png plots will be saved in the "figures" folder
 
 ## Dashboard
 
-O dashboard para a visualização dos resultados está no projeto [dash_ML_case1](https://github.com/calixtops/dash_ML_case1)
+The dashboard for viewing the results is in the project [dash_ML_case1](https://github.com/calixtops/dash_ML_case1)
